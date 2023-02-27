@@ -3,7 +3,7 @@ function Main({activeNote}){
         <div className="app-main-note-edit">
             <input type="text" name="" id="title" autoFocus value={activeNote.title} onChange={(e)=> onEditField("title", e.target.value )} />
             <textarea name="" id="body" cols="30" rows="10" placeholder="Write here..." value={activeNote.body}
-            onChange={(e)=> onEditField("body", e.target.value )}></textarea>
+            /* onChange={(e)=> onEditField("body", e.target.value )}*/></textarea>
         </div>
         <div className="app-main-note-preview">
             <h1 className="preview-title">
